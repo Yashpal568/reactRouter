@@ -11,6 +11,41 @@ The application is designed with a clean and modular architecture that includes:
 - **Dynamic User Route**: Demonstrates how to capture URL parameters (`user/:userid`) to render personalized user information.
 - **GitHub Data Fetching**: Implements React Router’s loader function to fetch live user data asynchronously from GitHub’s public API and display it within the app.
 
+## 📁 Folder Structure
+
+```plaintext
+/reactRouter
+├── public/
+│   ├── vite.svg
+│   └── ... (static assets)
+├── src/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Github.jsx
+│   │   ├── Home.jsx
+│   │   ├── Layout.jsx
+│   │   └── User.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── tailwind.css (optional)
+├── package.json
+├── tailwind.config.js (optional)
+├── postcss.config.js (optional)
+├── vite.config.js
+└── ... (other config files) 
+
+
+## Overview
+
+The application is designed with a clean and modular architecture that includes:
+
+- **Layout Component**: A shared layout with a persistent Header and Footer, ensuring consistent UI across all pages.
+- **Multiple Routes**: Includes core pages like Home, About, and Contact to represent typical website sections.
+- **Dynamic User Route**: Demonstrates how to capture URL parameters (`user/:userid`) to render personalized user information.
+- **GitHub Data Fetching**: Implements React Router’s loader function to fetch live user data asynchronously from GitHub’s public API and display it within the app.
+
 ## Key Highlights
 
 - **Vite Integration**: Utilizes Vite for its blazing fast startup time and hot module replacement, making development smoother and more efficient compared to traditional bundlers.
