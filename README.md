@@ -86,3 +86,13 @@ Feel free to explore, modify, and expand this project to suit your learning or p
 ---
 
 Thank you for checking out this React Router demo application powered by Vite and React.
+
+
+🌍 Live Demo:
+(Add a link if hosted on Netlify, Vercel, or GitHub Pages)
+
+🤝 Contribution:
+Feel free to fork this repository and submit pull requests for improvements or fixes.
+
+📜 License:
+This project is open-source and available under the MIT License.
